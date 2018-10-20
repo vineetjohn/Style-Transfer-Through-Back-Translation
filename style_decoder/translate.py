@@ -41,7 +41,7 @@ parser.add_argument('-verbose', action="store_true",
 parser.add_argument('-n_best', type=int, default=1,
                     help="""If verbose is set, will output the n_best
                     decoded sentences""")
-parser.add_argument('-gpu', type=int, default=-1,
+parser.add_argument('-gpu', type=int, default=0,
                     help="Device to run on")
 
 
